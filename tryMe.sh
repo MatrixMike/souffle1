@@ -1,3 +1,3 @@
-#1/bin/sh
+#!/bin/sh
 souffle -F. -D. example.dl
 
