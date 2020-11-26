@@ -13,6 +13,8 @@ edge("b", "c").
 edge("c", "e").
 edge("e", "f").
 edge("c", "d").
+edge("t", "u").
+edge("u", "v").
 
 // And we tell datalog how to check if 1 point is reachable from another.
 reachable(x, y) :- edge(x, y).                  // base rule
